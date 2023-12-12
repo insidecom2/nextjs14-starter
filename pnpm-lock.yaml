@@ -41,6 +41,9 @@ dependencies:
   i18next:
     specifier: ^23.5.1
     version: 23.7.8
+  lodash:
+    specifier: ^4.17.21
+    version: 4.17.21
   next:
     specifier: 14.0.3
     version: 14.0.3(@babel/core@7.23.5)(react-dom@18.2.0)(react@18.2.0)
