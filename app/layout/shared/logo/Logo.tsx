@@ -1,8 +1,7 @@
-import { FC } from "react";
-import { useSelector } from "@/store/hooks";
+import { useSelector } from "../../../../src/store/hooks";
 import Link from "next/link";
-import { styled } from '@mui/material/styles'
-import { AppState } from "@/store/store";
+import { styled } from "@mui/material/styles";
+import { AppState } from "../../../../src/store/store";
 import Image from "next/image";
 
 const Logo = () => {

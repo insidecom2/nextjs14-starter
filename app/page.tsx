@@ -1,7 +1,7 @@
 "use client";
 
-import PageContainer from "@/components/container/PageContainer";
-import AuthLogin from "@/components/auth/authForms/AuthLogin";
+import PageContainer from "../src/components/container/PageContainer";
+import AuthLogin from "../src/components/auth/authForms/AuthLogin";
 import { Box } from "@mui/system";
 import { Grid } from "@mui/material";
 

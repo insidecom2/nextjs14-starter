@@ -4,14 +4,14 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import { useTheme } from "@mui/material/styles";
 import SidebarItems from "./SidebarItems";
 import Logo from "../../shared/logo/Logo";
-import { useSelector, useDispatch } from "@/store/hooks";
+import { useSelector, useDispatch } from "../../../../src/store/hooks";
 import {
   hoverSidebar,
   toggleMobileSidebar,
-} from "@/store/customizer/CustomizerSlice";
-import Scrollbar from "@/components/custom-scroll/Scrollbar";
+} from "../../../../src/store/customizer/CustomizerSlice";
+import Scrollbar from "../../../../src/components/custom-scroll/Scrollbar";
 import { Profile } from "./SidebarProfile/Profile";
-import { AppState } from "@/store/store";
+import { AppState } from "../../../../src/store/store";
 
 const Sidebar = () => {
   const lgUp = useMediaQuery((theme: any) => theme.breakpoints.up("lg"));

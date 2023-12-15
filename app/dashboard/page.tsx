@@ -1,13 +1,13 @@
 "use client";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
-import PageContainer from "@/components/container/PageContainer";
+import PageContainer from "../../src/components/container/PageContainer";
 // components
-import SalesOverview from "@/components/dashboard/SalesOverview";
-import YearlyBreakup from "@/components/dashboard/YearlyBreakup";
-import RecentTransactions from "@/components/dashboard/RecentTransactions";
-import ProductPerformance from "@/components/dashboard/ProductPerformance";
-import MonthlyEarnings from "@/components/dashboard/MonthlyEarnings";
+import SalesOverview from "../../src/components/dashboard/SalesOverview";
+import YearlyBreakup from "../../src/components/dashboard/YearlyBreakup";
+import RecentTransactions from "../../src/components/dashboard/RecentTransactions";
+import ProductPerformance from "../../src/components/dashboard/ProductPerformance";
+import MonthlyEarnings from "../../src/components/dashboard/MonthlyEarnings";
 
 export default function Dashboard() {
   return (

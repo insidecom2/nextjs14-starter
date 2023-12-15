@@ -6,9 +6,9 @@ import { ThemeSettings } from "@/theme/Theme";
 
 import CircularProgress from "@mui/material/CircularProgress";
 import Box from "@mui/material/Box";
-import "@/utils/i18n";
+import "../src/utils/i18n";
 import { NextAppDirEmotionCacheProvider } from "@/theme/EmotionCache";
-import { store } from "@/store/store";
+import { store } from "../src/store/store";
 import { Provider } from "react-redux";
 
 export const MyApp = ({ children }: { children: React.ReactNode }) => {

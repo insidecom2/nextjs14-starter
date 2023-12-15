@@ -9,7 +9,7 @@ import Stack from "@mui/material/Stack";
 import Tooltip from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
 import { styled } from "@mui/material/styles";
-import { useSelector, useDispatch } from "@/store/hooks";
+import { useSelector, useDispatch } from "../../../../src/store/hooks";
 import Box, { BoxProps } from "@mui/material/Box";
 import { IconX, IconSettings, IconCheck } from "@tabler/icons-react";
 import {
@@ -21,9 +21,9 @@ import {
   toggleHorizontal,
   setBorderRadius,
   setCardShadow,
-} from "@/store/customizer/CustomizerSlice";
-import { AppState } from "@/store/store";
-import Scrollbar from "@/components/custom-scroll/Scrollbar";
+} from "../../../../src/store/customizer/CustomizerSlice";
+import { AppState } from "../../../../src/store/store";
+import Scrollbar from "../../../../src/components/custom-scroll/Scrollbar";
 import WbSunnyTwoToneIcon from "@mui/icons-material/WbSunnyTwoTone";
 import DarkModeTwoToneIcon from "@mui/icons-material/DarkModeTwoTone";
 import SwipeLeftAltTwoToneIcon from "@mui/icons-material/SwipeLeftAltTwoTone";

@@ -1,18 +1,20 @@
 import React from "react";
-import Box from '@mui/material/Box';
-import Breadcrumbs from '@mui/material/Breadcrumbs';
-import Grid from '@mui/material/Grid';
-import { Theme } from '@mui/material/styles';
-import Typography from '@mui/material/Typography';
+import Box from "@mui/material/Box";
+import Breadcrumbs from "@mui/material/Breadcrumbs";
+import Grid from "@mui/material/Grid";
+import { Theme } from "@mui/material/styles";
+import Typography from "@mui/material/Typography";
 import NextLink from "next/link";
 
 import breadcrumbImg from "public/images/breadcrumb/ChatBc.png";
 import { IconCircle } from "@tabler/icons-react";
 import Image from "next/image";
+import { Records } from "@/types/components/dashboard";
+import { Url } from "next/dist/shared/lib/router/router";
 
 interface BreadCrumbType {
   subtitle?: string;
-  items?: any[];
+  items?: Records[];
   title: string;
   children?: JSX.Element;
 }
@@ -56,7 +58,7 @@ const Breadcrumb = ({ subtitle, items, title, children }: BreadCrumbType) => (
           ? items.map((item) => (
               <div key={item.title}>
                 {item.to ? (
-                  <NextLink href={item.to} passHref>
+                  <NextLink href={item.to as Url} passHref>
                     <Typography color="textSecondary">{item.title}</Typography>
                   </NextLink>
                 ) : (

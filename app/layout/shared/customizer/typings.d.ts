@@ -1,4 +1,4 @@
 declare module "stylis-plugin-rtl" {
-  const noTypesYet: any;
+  const noTypesYet: unknown;
   export default noTypesYet;
 }
